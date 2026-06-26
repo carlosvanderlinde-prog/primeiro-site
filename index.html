@@ -1,29 +1,169 @@
+FutsalHub/
+│
+├── index.html
+├── sobre.html
+├── regras.html
+├── fundamentos.html
+├── posicoes.html
+├── contato.html
+│
+├── css/
+│   ├── style.css
+│   └── responsive.css
+│
+├── js/
+│   └── script.js
+│
+├── imagens/
+│   ├── banner.jpg
+│   ├── bola.jpg
+│   ├── quadra.jpg
+│   └── jogadores.jpg
+│
+├── README.md
+├── LICENSE
+└── .gitignore
+
+# ⚽ FutsalHub
+
+Um site criado para divulgar informações sobre o futsal.
+
+## Funcionalidades
+
+- História do futsal
+- Regras do jogo
+- Fundamentos
+- Posições dos jogadores
+- Galeria de imagens
+- Formulário de contato
+- Design responsivo
+
+## Tecnologias
+
+- HTML5
+- CSS3
+- JavaScript
+
+## Como executar
+
+1. Clone o repositório
+
+git clone https://github.com/seu-usuario/FutsalHub.git
+
+2. Abra o arquivo `index.html` no navegador.
+
+## Autor
+
+feito por Carlos
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FutsalHub</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
+
+<header>
+<h1>⚽ FutsalHub</h1>
+
+<nav>
+<a href="index.html">Início</a>
+<a href="sobre.html">História</a>
+<a href="regras.html">Regras</a>
+<a href="fundamentos.html">Fundamentos</a>
+<a href="posicoes.html">Posições</a>
+<a href="contato.html">Contato</a>
+</nav>
+
+</header>
+
+<section class="banner">
+
+<h2>Bem-vindo ao FutsalHub</h2>
+
+<p>Aprenda tudo sobre o futsal em um único lugar.</p>
+
+<button>Saiba Mais</button>
+
+</section>
+
+<section>
+
+<h2>O que é Futsal?</h2>
+
+<p>
+O futsal é um esporte coletivo praticado em quadra com duas equipes de cinco jogadores.
+É conhecido por sua velocidade, técnica e trabalho em equipe.
+</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 FutsalHub</p>
+
+</footer>
+
+<script src="js/script.js"></script>
+
 </body>
-</html><html lang="pt-br"></html><!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Meu blog tech</h1>
-    <p>Vou compartilhar conhecimentos sobre tecnologia e programação</p>
-</body>
-</html><title>Blog</title><h2>Meu primeiro post</h2><p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de tecnologia.</p><p>Por: Marcelo Paludetto</p><header>
-    <h1>Meu blog tech</h1>
-    <p>Vou compartilhar conhecimentos sobre tecnologia e programação</p>
-</header><main>
-    <h2>Meu primeiro post</h2>
-    <p>Por: Marcelo Paludetto</p>
-    <p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de tecnologia.</p>
-</main>
+</html>
+
+body{
+font-family:Arial,Helvetica,sans-serif;
+margin:0;
+background:#f4f4f4;
+}
+
+header{
+background:#008000;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:15px;
+font-weight:bold;
+}
+
+.banner{
+background:#222;
+color:white;
+padding:80px;
+text-align:center;
+}
+
+button{
+padding:12px 20px;
+background:#00a651;
+color:white;
+border:none;
+cursor:pointer;
+border-radius:5px;
+}
+
+section{
+padding:30px;
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:15px;
+}
+
+document.querySelector("button").addEventListener("click", () => {
+    alert("Bem-vindo ao FutsalHub!");
+});
+
+document.querySelector("button").addEventListener("click", () => {
+    alert("Bem-vindo ao FutsalHub!");
+});
