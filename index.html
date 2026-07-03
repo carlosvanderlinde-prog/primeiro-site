@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FC Futsal Arena</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body { font-family: 'Inter', system-ui, sans-serif; }
+        .title { font-family: 'Bebas Neue', sans-serif; }
+        .hero { 
+            background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), 
+                        url('https://picsum.photos/id/1015/1920/1080') center/cover; 
+        }
+    </style>
+</head>
+<body class="bg-zinc-950 text-white">
+
+    <!-- Navbar -->
+    <nav class="bg-black border-b border-zinc-800 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <i class="fas fa-futbol text-4xl text-orange-500"></i>
+                <span class="text-3xl font-bold title tracking-widest">FC FUTSAL</span>
+            </div>
+            <div class="hidden md:flex gap-8 text-lg">
+                <a href="#sobre" class="hover:text-orange-400 transition">Sobre</a>
+                <a href="#elenco" class="hover:text-orange-400 transition">Elenco</a>
+                <a href="#partidas" class="hover:text-orange-400 transition">Partidas</a>
+                <a href="#galeria" class="hover:text-orange-400 transition">Galeria</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero h-screen flex items-center justify-center text-center">
+        <div>
+            <h1 class="text-7xl md:text-8xl title tracking-tighter mb-4">FUTSAL ARENA</h1>
+            <p class="text-3xl text-orange-400 mb-10">Paixão que joga dentro da quadra</p>
+            <a href="#elenco" class="bg-orange-500 text-black px-10 py-4 rounded-2xl text-xl font-bold hover:bg-orange-600 transition">
+                Conhecer o Time →
+            </a>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="py-24 bg-zinc-900">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <h2 class="text-5xl title mb-8">Nossa História</h2>
+            <p class="text-xl max-w-2xl mx-auto text-zinc-300">
+                Time de futsal fundado em 2018. Competimos com garra, disciplina e muito amor pelo esporte.
+            </p>
+        </div>
+    </section>
+
+    <!-- Elenco, Partidas, etc. podem ser adicionados aqui -->
+
+    <footer class="bg-black py-12 text-center">
+        <p>© 2026 FC Futsal Arena • Projeto GitHub</p>
+    </footer>
+
+</body>
+</html>
